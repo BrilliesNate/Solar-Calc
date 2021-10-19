@@ -1,0 +1,122 @@
+.heading {
+    font-size: 10px;
+    background-color: rgb(247, 222, 0);
+    ;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    background-color: white;
+}
+
+.top-ui-div {
+    background: white;
+    
+    padding: 15px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 4px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.solyc-uiobj-button {
+    margin:3px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+    color: black;
+    border-color: #DCDCDC;
+    border-width: thin;
+    border-radius: 0.2em;
+    border-style: solid;
+}
+
+.solyc-uiobj-inputtext {
+    background: rgb(255, 255, 255);
+    
+    margin:10px;
+    cursor: pointer;
+    border-color: #DCDCDC;
+    border-width: thin;
+    border-radius: 0.2em;
+    width: 50px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    
+}
+
+.solyc-uiobj-switch {
+    height: 20px;
+    width: 20px;
+    border-radius: 0px;
+}
+
+.solyc-uiobj-label {
+    margin:1px;
+    cursor: default;
+    
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    
+}
+
+.solyc-uiobj-container {
+   
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.solyc-chart-chartContainer {
+    height: 190px;
+    
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    
+}
+
+.dailyData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#latitude{
+    opacity: 0;
+}
+
+#longitude{
+    opacity: 0;
+}
+#timeZone{
+    opacity: 0;
+}
+#panelElevation{
+    opacity: 0;
+}
+#panelAzimuth{
+    opacity: 0;
+}
